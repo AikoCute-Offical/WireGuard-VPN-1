@@ -3,7 +3,7 @@ Hướng Dẫn cài WireGuard VPN
 - Đầu tiên, bạn cần phải có sẵn 1 VPS với quyền truy cập root. Bạn có thể đăng ký 1 VPS mới Hetzner, UpCloud hay DigitalOcean tuỳ thích. Hoặc sử dụng bất kỳ VPS nào bạn đang có sẵn.
 - Tiếp theo SSH vào VPS với tài khoản root và cài đặt Wireguard VPN với lệnh sau.
 ```
-wget https://git.io/wireguard -O wireguard-install.sh && bash wireguard-install.sh
+wget raw.githubusercontent.com/AikoCute/WireGuard-VPN/aiko/wireguard-Aiko-Install.sh -O wireguard-install.sh && bash wireguard-install.sh
 ```
 Nếu VPS / Server của bạn có nhiều IP mạng, nhớ chọn IP Public của VPS.
 ```
@@ -45,7 +45,7 @@ Press any key to continue...
 ## Tạo thêm tài khoản client
 - Bạn có thể chạy lại lệnh cài đặt thêm lần nữa để tạo thêm nhiều tài khoản mới.
 ```
-wget https://git.io/wireguard -O wireguard-install.sh && bash wireguard-install.sh
+wget raw.githubusercontent.com/AikoCute/WireGuard-VPN/aiko/wireguard-Aiko-Install.sh -O wireguard-install.sh && bash wireguard-install.sh
 ```
 - Hệ thống sẽ tự động nhận ra WireGuard đã được cài đặt và hiện thông báo như dưới đây. Chọn 1 để tạo thêm client mới, 2 để xoá client hiện có, 3 để xoá WireGuard và 4 để thoát ra
 ```
